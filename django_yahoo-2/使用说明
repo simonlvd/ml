@@ -1,0 +1,26 @@
+使用说明
+
+1.将邮箱账号密码填入 邮箱.xlsx 中
+2.运行程序
+3.未设置imap的邮箱会自动存入 需设置imap.xls
+
+
+djangoadmin yahoo    yahooemailauto
+mysql root yahoo@22466 
+47.91.153.25:80
+
+ssh root@47.91.153.25
+Qwasxxxsxxsasss12215sszss
+export WORKON_HOME=~/my_projiect
+source /usr/local/python3/bin/virtualenvwrapper.sh
+
+(! python manage.py runserver 0:80 &)
+nohup python manage.py rumserver 0:80
+
+netstat -tulpn | grep :80
+
+
+优化
+1 批量上传
+2 不同邮件确认
+3 多线程
